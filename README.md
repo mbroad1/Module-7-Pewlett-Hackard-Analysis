@@ -33,12 +33,19 @@ The purpose of this analysis is to determine the number of retiring employees pe
 The number of roles that will need to be filled is **90,398** when all of the numbers in the retiring titles table is added up.
 
 In order to see how many current, younger employees there are, I counted the number of titles in the mentorship eligibility program, placed them in a new table called "current_emp_titles" and found the following results:
+
 ![](https://github.com/mbroad1/Module-7-Pewlett-Hackard-Analysis/blob/main/Images/current_emp_titles.png)
+
 According to this new query that I performed, it looks like there are significantly fewer current employees that hold senior-ranked positions (only **416** Senior Engineers, **294** Senior Staff, and **77** Technique Leaders) in comparison to the number of senior-ranked employees ready to retire.
 
 Therefore, it is pertinent that Pewlett-Hackard start hiring a huge volume of new employees now so that they can be funneled into the mentorship eligibility program to be trained by employees ready to retire.
 
 2) **Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?**
+
 According to the high number of senior-ranked employees that are ready to retire, there is indeed a very high number of senior-ranked employees that are qualified to mentor the next generation of Pewlett Hackard employees.
 
-Another query that can be done to corroborate this would be to see which and how many senior-ranked, retiring employees had at least 20 years of experience at the company. Information from this query would reveal the number of qualified, retiring employees ready to mentor based on seniorship in their positions and number of years at the company.
+Another query that can be done to corroborate this would be to see how many senior-ranked, retiring employees had the most experience at the company. The earliest year in the hire date column is 1985, so let's see how many retiring employees were hired during that year:
+
+![](https://github.com/mbroad1/Module-7-Pewlett-Hackard-Analysis/blob/main/Images/high_experience_emp_count.png)
+
+According to this new query, there are **4,127** Senior Engineers, **3,910** Senior Staff, **1,110** Engineers, **914** Staff, **520** Technique Leaders, and **129** Assistant Engineers that were hired in 1985 and are no eligible to retire. This query reveals that there are thousands of senior-ranked and other employees that have been at the company since 1985, and therefore there is a very high number of people that can mentor current employees and future employees in the next coming months as they transition to retirement.
