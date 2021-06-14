@@ -22,16 +22,17 @@ The purpose of this analysis is to determine the number of retiring employees pe
 - Likewise, the number of Engineers that are ready to retire is **14,222**, the number of Staff ready to retire is **12,243**, the number of Technique Leaders ready to retire is **4,502**, the number of Assistant Engineers ready to retire is **1,761**, and finally, the number of Managers ready to retire is **2**.
 - Overall, there is a very high number of senior-ranked employees and a significant number of other types of employees prone to retire soon.
 
-### 4) The Need to Incentivize Joining the Mentorship Eligibility Program
+### 4) There is Many Current Employees Who are in Senior-Ranked Positions
 ![](https://github.com/mbroad1/Module-7-Pewlett-Hackard-Analysis/blob/main/Images/mentorship_eligibility.png)
-- Due to the high number of senior-ranked employees and employees in general that are ready to retire in the near future, it is pertinent that these employees are incentivized to stay with the company and train younger employees by joining the mentorship eligibility program.
-   - This program will let employees that are ready to retire taper off from the work-load of their roles so that they can spend more time training younger employees so that these employees can transition into these senior-ranked roles as many will be vacated soon. 
+- Although there are many senior-ranked employees ready to retire, there are also a high number of current employees who also fill senior-ranked positions according to this mentorship eligibility table.
+- Therefore, even if senior-ranked employees retire in the near future, there will still be plenty of current employees that hold senior-ranked positions that can help mentor future employees of the company.
 ---
 ## Summary:
 1) **How many roles will need to be filled as the "silver tsunami" begins to make an impact?**
-The number of roles that will need to be filled is **90,398** when all of the numbers in the retiring titles table is added up. However, this number is greater than the actual number of roles that need to be filled out because the retiring titles table was built from a query that had COUNT(*) in it, which means all titles that an employee had were counted, and therefore, the employee and their various titles were all included in these counts.
 
-In order to resolve this issue, another query should be done where only the most recent title given to the employee is featured in a table, and then each title is counted from that table giving a true representation of how many roles need to be filled at the company.
+The number of roles that will need to be filled is **90,398** when all of the numbers in the retiring titles table is added up.
+
+Although this number is extremely high, from the mentorship eligibility table, we see that there are many employees in senior-ranked positions that are not ready to retire. In order to evaluate how many current employees are in senior-ranked positions, I performed the following query on the mentorship eligibility table to count the number of current employees by title.
 
 2) **Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?**
 According to the high number of senior-ranked employees that are ready to retire, there is indeed a very high number of senior-ranked employees that are qualified to mentor the next generation of Pewlett Hackard employees.
