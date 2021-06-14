@@ -25,7 +25,7 @@ The purpose of this analysis is to determine the number of retiring employees pe
 ### 4) There Are Not Many Current Employees Who are in Senior-Ranked Positions
 ![](https://github.com/mbroad1/Module-7-Pewlett-Hackard-Analysis/blob/main/Images/mentorship_eligibility.png)
 - Taking a look at the mentorship eligibility table which contains all of the employees that will not retire in the near future, we see that there is a significantly fewer number of these employees in comparison to the number of employees ready to retire.
-- In order to make sure the company does not lose a significant number of employees all at once, Pewlett-Hackard should consider hiring a significant number of people in the coming months to anticipate the work deficit that will come when many of these retirement eligible employees leave the company.
+- In order to make sure the company does not lose a significant number of employees all at once, Pewlett Hackard should consider hiring a significant number of people in the coming months to anticipate the work deficit that will come when many of these retirement eligible employees leave the company.
 ---
 ## Summary:
 1) **How many roles will need to be filled as the "silver tsunami" begins to make an impact?**
@@ -38,7 +38,7 @@ In order to see how many current, younger employees there are, I counted the num
 
 According to this new query that I performed, it looks like there are significantly fewer current employees that hold senior-ranked positions (only **416** Senior Engineers, **294** Senior Staff, and **77** Technique Leaders) in comparison to the number of senior-ranked employees ready to retire.
 
-Therefore, it is pertinent that Pewlett-Hackard start hiring a huge volume of new employees now so that they can be funneled into the mentorship eligibility program to be trained by employees ready to retire.
+Therefore, it is pertinent that Pewlett Hackard start hiring a huge volume of new employees now so that they can be funneled into the mentorship eligibility program to be trained by employees ready to retire.
 
 2) **Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?**
 
