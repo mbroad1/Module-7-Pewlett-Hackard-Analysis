@@ -14,7 +14,7 @@ The purpose of this analysis is to determine the number of retiring employees pe
 ### 2) The Unique Titles Table Corroborates the First Point
 ![](https://github.com/mbroad1/Module-7-Pewlett-Hackard-Analysis/blob/main/Images/unique_titles.png)
 - Likewise, when looking at the unique titles table, we can see that employees ready to retire have senior-ranked positions like **Senior Engineer**, **Senior Staff**, and **Technique Leader** as well as positions like **Staff**, **Engineer**, and **Assistant Engineer**.
-    - This observation corroborates the findings found in the retirement title table, and also shows that in general, the company would be losing a significant amount of other employees besides senior-ranked employees like Engineers and Staff. 
+    - This observation corroborates the findings found in the retirement title table, and also shows that in general, the company would be losing a significant number of other employees besides senior-ranked employees like Engineers and Staff. 
 
 ### 3) The Number of Senior-Ranked Employees Ready to Retire is Significantly High
 ![](https://github.com/mbroad1/Module-7-Pewlett-Hackard-Analysis/blob/main/Images/retiring_titles.png)
@@ -48,4 +48,4 @@ Another query that can be done to corroborate this would be to see how many seni
 
 ![](https://github.com/mbroad1/Module-7-Pewlett-Hackard-Analysis/blob/main/Images/high_experience_emp_count.png)
 
-According to this new query, there are **4,127** Senior Engineers, **3,910** Senior Staff, **1,110** Engineers, **914** Staff, **520** Technique Leaders, and **129** Assistant Engineers that were hired in 1985 and are no eligible to retire. This query reveals that there are thousands of senior-ranked and other employees that have been at the company since 1985, and therefore there is a very high number of people that can mentor current employees and future employees in the next coming months as they transition to retirement.
+According to this new query, there are **4,127** Senior Engineers, **3,910** Senior Staff, **1,110** Engineers, **914** Staff, **520** Technique Leaders, and **129** Assistant Engineers that were hired in 1985 and are now eligible to retire. This query reveals that there are thousands of senior-ranked and other employees that have been at the company since 1985, and therefore there is a very high number of people that can mentor current employees and future employees in the next coming months as they transition to retirement.
