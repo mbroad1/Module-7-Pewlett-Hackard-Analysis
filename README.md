@@ -22,17 +22,21 @@ The purpose of this analysis is to determine the number of retiring employees pe
 - Likewise, the number of Engineers that are ready to retire is **14,222**, the number of Staff ready to retire is **12,243**, the number of Technique Leaders ready to retire is **4,502**, the number of Assistant Engineers ready to retire is **1,761**, and finally, the number of Managers ready to retire is **2**.
 - Overall, there is a very high number of senior-ranked employees and a significant number of other types of employees prone to retire soon.
 
-### 4) There is Many Current Employees Who are in Senior-Ranked Positions
+### 4) There Are Not Many Current Employees Who are in Senior-Ranked Positions
 ![](https://github.com/mbroad1/Module-7-Pewlett-Hackard-Analysis/blob/main/Images/mentorship_eligibility.png)
-- Although there are many senior-ranked employees ready to retire, there are also a high number of current employees who also fill senior-ranked positions according to this mentorship eligibility table.
-- Therefore, even if senior-ranked employees retire in the near future, there will still be plenty of current employees that hold senior-ranked positions that can help mentor future employees of the company.
+- Taking a look at the mentorship eligibility table which contains all of the employees that will not retire in the near future, we see that there is a significantly fewer number of these employees in comparison to the number of employees ready to retire.
+- In order to make sure the company does not lose a significant number of employees all at once, Pewlett-Hackard should consider hiring a significant number of people in the coming months to anticipate the work deficit that will come when many of these retirement eligible employees leave the company.
 ---
 ## Summary:
 1) **How many roles will need to be filled as the "silver tsunami" begins to make an impact?**
 
 The number of roles that will need to be filled is **90,398** when all of the numbers in the retiring titles table is added up.
 
-Although this number is extremely high, from the mentorship eligibility table, we see that there are many employees in senior-ranked positions that are not ready to retire. In order to evaluate how many current employees are in senior-ranked positions, I performed the following query on the mentorship eligibility table to count the number of current employees by title.
+In order to see how many current, younger employees there are, I counted the number of titles in the mentorship eligibility program, placed them in a new table called "current_emp_titles" and found the following results:
+![](https://github.com/mbroad1/Module-7-Pewlett-Hackard-Analysis/blob/main/Images/current_emp_titles.png)
+According to this new query that I performed, it looks like there are significantly fewer current employees that hold senior-ranked positions (only **416** Senior Engineers, **294** Senior Staff, and **77** Technique Leaders) in comparison to the number of senior-ranked employees ready to retire.
+
+Therefore, it is pertinent that Pewlett-Hackard start hiring a huge volume of new employees now so that they can be funneled into the mentorship eligibility program to be trained by employees ready to retire.
 
 2) **Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?**
 According to the high number of senior-ranked employees that are ready to retire, there is indeed a very high number of senior-ranked employees that are qualified to mentor the next generation of Pewlett Hackard employees.
